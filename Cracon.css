@@ -1,0 +1,61 @@
+/* styles.css */
+body {
+    background-image: url("Background.jpg");
+    background-size: cover;
+    background-color: #cd4040;
+    font-family: Arial, sans-serif;
+}
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background: linear-gradient(to right, #414141, #ff0a0a);
+    -webkit-background-clip: text; /* Clip the gradient to the text */
+    -webkit-text-fill-color: transparent; /* Make the text transparent */
+    -webkit-text-stroke-width: 1px; /*Stroke width*/
+    -webkit-text-stroke-color: rgb(255, 255, 255); /*Stroke Colour*/
+    font-size: xxx-large;
+    text-shadow: 2px 2px; /* Horizontal and vertical offsets */
+}
+/* styles.css */
+
+h2 {
+    background: linear-gradient(to right, #605d5d, #ff0000);
+    -webkit-background-clip: text; /* Clip the gradient to the text */
+    -webkit-text-fill-color: transparent; /* Make the text transparent */
+    font-family: Georgia, 'Times New Roman', Times, serif;    
+    -webkit-text-stroke-width: 0.5px; /*Stroke width*/
+    -webkit-text-stroke-color: rgb(255, 255, 255); /*Stroke Colour*/
+    text-shadow: 2px 2px; /* Horizontal and vertical offsets */
+}
+
+/* styles.css */
+#appear.center {
+    text-align: center;
+}
+
+/* styles.css */
+.topnav {
+    background-color: transparent;
+    overflow: hidden;
+}
+
+.topnav a {
+    float: left;
+    color: #ffffff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.topnav a.active {
+    background-color: #04AA6D;
+    color: white;
+}
+
+/* Add more styles as needed */
+
